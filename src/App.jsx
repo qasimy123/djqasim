@@ -22,7 +22,7 @@ class App extends Component{
     let FETCH_URL = BASE_URL + 'q=' + this.state.query + '&type=artist&limit=1';  
     const ALBUM_URL = "https://api.spotify.com/v1/artists/";
     
-    var accessToken = 'BQCyQ7XkK0Jp8RbbUSzgJ8q01CNPj_nubOEofezUjcgYG2DuStqysRa1CPIFNC50yqK9pFVkqUkz5yBc_dI5MiDCf7_xrrJ2g_6qZ_OxA50RUE387qeH0cYKSA8rfLPEai-kE0hPbJ71oA';
+    var accessToken = 'BQD7l-FwN9VtW5kD0yuzef9oVUdrbLuErCL_TVY1dGDx95m22zvuOCr0k-lE9PmmGZD8iS2sLrBAK9Vdlsxvu-J2BXij_4vMUs7yGE9GomA3ZyoHus-QdgjOZsUve7hDa50h9RdxpA';
     
     var myOptions = {
       method: 'GET',
